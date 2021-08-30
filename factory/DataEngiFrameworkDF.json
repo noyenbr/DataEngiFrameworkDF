@@ -1,0 +1,9 @@
+{
+	"name": "DataEngiFrameworkDF",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f0d9f978-da90-4541-bdde-92e3a74306ed",
+		"tenantId": "b3680828-8bce-4405-9349-17844fcea2c9"
+	}
+}
