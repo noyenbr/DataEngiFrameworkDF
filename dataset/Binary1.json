@@ -5,17 +5,13 @@
 			"referenceName": "con_to_dataframeworkblob",
 			"type": "LinkedServiceReference"
 		},
-		"parameters": {
-			"Filename": {
-				"type": "string",
-				"defaultValue": "test.csv"
-			}
-		},
 		"annotations": [],
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation"
+				"type": "AzureBlobStorageLocation",
+				"folderPath": "RAW",
+				"container": "storage"
 			}
 		}
 	}
